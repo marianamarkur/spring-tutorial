@@ -1,0 +1,16 @@
+Autowiring 30
+Wiring with Annotations 40
+Spring Expression Language (SPEL) 25
+Working with Databases 120
+Web Application Basics with Spring MVC 150
+Working with Web Forms 110
+Aspect-Oriented Programming (AOP) 130
+Spring Security and Managing Users 270
+Apache Tiles and Spring MVC 55
+Logging and Testing 55
+Improving the Application 100
+Hibernate 120
+Spring Webflow 110
+JSON and AJAX 155
+
+25 hours

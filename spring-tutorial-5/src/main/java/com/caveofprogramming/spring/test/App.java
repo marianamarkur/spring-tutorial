@@ -8,8 +8,15 @@ public class App {
 	public static void main(String[] args) {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/caveofprogramming/spring/test/beans/beans.xml");
-		Person person = (Person) context.getBean("person");
-		person.speak();
+		Person person1 = (Person) context.getBean("person");
+		Person person2 = (Person) context.getBean("person");
+		
+		person1.setTaxId(111);
+		
+		Address address = (Address) context.getBean("address");
+		
+		System.out.println(person2);
+		System.out.println(address);
 		
 		((ClassPathXmlApplicationContext) context).close();
 	}
